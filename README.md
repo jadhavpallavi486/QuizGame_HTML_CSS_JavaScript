@@ -1,1 +1,3 @@
 # QuizGame_HTML_CSS_JavaScript
+"Quiz Game" is developed by using HTML, CSS and JavaScript. In this When Player scores greater than 7 "Congratulations! You Win Prize!" message displayed. And when player got score below 7 then "You didn\'t score high enough for a prize." this message is shown. If the selected answer was correct then option highlighted with "Green" colour and score is updated with message "Correct Answer". If the selected answer was wrong option is highlighted with "Red" colour with message "Sorry! Answer is nor correct". 
+To shuffle the order of questions and to show the random sequence of questions "Fisher Yates Shuffle Algorithm" is applied.
