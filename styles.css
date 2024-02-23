@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bg_quiz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5; /* Fallback color in case the image is not available or doesn't cover the entire body */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adding some transparency to the background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .player-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .player-info label {
+    margin-right: 10px;
+  }
+  
+  .player-name {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .choices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #score {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #reward {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
